@@ -1,10 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
 
 function App() {
   return (
+    <React.Fragment>
+    <video autoPlay muted loop id="backgroundVideo">
+      <source src="video.mp4" type="video/mp4"/>
+    </video>
     <div className="App">
-      <header className="App-header">
+      <div className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,8 +22,9 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </div>
     </div>
+    </React.Fragment>
   );
 }
 
