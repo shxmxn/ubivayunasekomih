@@ -16,14 +16,6 @@ function App() {
           <Completionist />
         </Countdown>
         <div className="App-links">
-          {/* <a
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="App-link" 
-          >
-            <img src="soundcloud.png" alt="soundcloud"/>
-          </a> */}
           <a
             href="https://vk.com/ubivayunasekomih"
             target="_blank"
