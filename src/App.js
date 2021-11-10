@@ -7,7 +7,7 @@ const Completionist = () => <span>НА ВСЕХ ПЛОЩАДКАХ</span>;
 function App() {
   return (
     <React.Fragment>
-    <video autoPlay muted loop id="backgroundVideo">
+    <video playsInline autoPlay muted loop id="backgroundVideo">
       <source src="video.mp4" type="video/mp4"/>
     </video>
     <div className="App">
