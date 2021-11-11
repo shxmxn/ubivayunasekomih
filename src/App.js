@@ -12,7 +12,7 @@ function App() {
     </video>
     <div className="App">
       <div className="App-header">
-        <Countdown className="App-countdown" date={Date.parse("November 25, 2021")}>
+        <Countdown className="App-countdown" date={Date.parse("November 26, 2021")}>
           <Completionist />
         </Countdown>
         <div className="App-links">
