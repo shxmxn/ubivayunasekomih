@@ -40,7 +40,7 @@
   padding-bottom: 5vh;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .App-stem {
   font-family: 'Roboto';
@@ -49,6 +49,25 @@
 
 .App-stem a {
   color: #D30100;
+  text-decoration: none;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  transition:all 0.5s ease;
+}
+
+.App-stem a:hover {
+  color: white;
+  transition:all 0.5s ease;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px rgba(211,1,0, 0.25), 0 0 10px rgba(211,1,0, 0.25), 0 0 15px rgba(211, 211, 211, 0.25), 0 0 20px rgba(211, 211, 211, 0.25), 0 0 25px rgba(211, 211, 211, 0.25), 0 0 30px rgba(211, 211, 211, 0.25), 0 0 35px rgba(211, 211, 211, 0.25);
+  }
+  to {
+    text-shadow: 0 0 10px rgba(211,1,0, 0.25), 0 0 15px rgba(156, 156, 252, 0.25), 0 0 20px rgba(156, 156, 156, 0.25), 0 0 25px rgba(156, 156, 156, 0.25), 0 0 30px rgba(156, 156, 156, 0.25), 0 0 35px rgba(156, 156, 156, 0.25), 0 0 40px rgba(156, 156, 156, 0.25);
+  }
 }
 
 .App-countdown {

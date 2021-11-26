@@ -10,12 +10,12 @@ function App() {
     <div className="App">
       <div className="App-header">
         <div style={{paddingBottom: 15}}>STEMS</div>
-        <div className="App-stem"><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1FkXXhQQuVsGbH1TYptD_OhWt79dwQqq7?usp=sharing">1. Помним, любим, скорость</a></div>
-        <div className="App-stem"><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1glJO4TTGtz6xfO4hlxHcixHGm1f-hlCk?usp=sharing">2. Флирт</a></div>
-        <div className="App-stem"><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1cCvEtaaqRQ8ixrh_7GRD2YkmwJExOnuc?usp=sharing">3. Змеи</a></div>
-        <div className="App-stem"><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/19hGma5KSyK4cJN1rdTH6KCdjduuebi-v?usp=sharing">4. Глаза</a></div>
-        <div className="App-stem"><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1ckPS2mzAwTHe6prv9tFDRifadiLqajg4?usp=sharing">5. Прелесть 10000</a></div>
-        <div className="App-stem"><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/11lJSmOtzwaurgdPtWjkwdC2FfuBHAusE?usp=sharing">6. Лиловый Дьявол</a></div>
+        <div className="App-stem"><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1FkXXhQQuVsGbH1TYptD_OhWt79dwQqq7?usp=sharing">Помним, любим, скорость</a></div>
+        <div className="App-stem"><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1glJO4TTGtz6xfO4hlxHcixHGm1f-hlCk?usp=sharing">Флирт</a></div>
+        <div className="App-stem"><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1cCvEtaaqRQ8ixrh_7GRD2YkmwJExOnuc?usp=sharing">Змеи</a></div>
+        <div className="App-stem"><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/19hGma5KSyK4cJN1rdTH6KCdjduuebi-v?usp=sharing">Глаза</a></div>
+        <div className="App-stem"><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/1ckPS2mzAwTHe6prv9tFDRifadiLqajg4?usp=sharing">Прелесть 10000</a></div>
+        <div className="App-stem"><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/drive/folders/11lJSmOtzwaurgdPtWjkwdC2FfuBHAusE?usp=sharing">Лиловый Дьявол</a></div>
         <div className="App-links">
           <a
             href="https://vk.com/ubivayunasekomih"
