@@ -28,9 +28,8 @@
 }
 
 .App-header {
-  width: 100%;
   height: 100vh;
-  font-size: 450%;
+  font-size: 9vh;
   font-family: 'Polya';
   color: #D30100;
   display: flex;
@@ -38,6 +37,8 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 5vh;
+  margin-right: 5vw;
+  margin-left: 5vw;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
