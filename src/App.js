@@ -1,8 +1,6 @@
 import './App.css';
 import React from 'react';
 
-const Completionist = () => <span>НА ВСЕХ ПЛОЩАДКАХ</span>;
-
 function App() {
   return (
     <React.Fragment>

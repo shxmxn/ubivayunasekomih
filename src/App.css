@@ -29,10 +29,15 @@
 
 .App-header {
   width: 100%;
-  padding-top: 15vh;
-  font-size: 500%;
+  height: 100vh;
+  font-size: 450%;
   font-family: 'Polya';
   color: #D30100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10vh;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
