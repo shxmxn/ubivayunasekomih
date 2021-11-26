@@ -29,9 +29,20 @@
 
 .App-header {
   width: 100%;
-  min-height: 100vh;
-  font-size: 600%;
+  padding-top: 15vh;
+  font-size: 500%;
   font-family: 'Polya';
+  color: #D30100;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.App-stem {
+  font-family: 'Roboto';
+  font-size: 50%;
+}
+
+.App-stem a {
   color: #D30100;
 }
 
